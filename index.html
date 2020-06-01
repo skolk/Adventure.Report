@@ -66,7 +66,7 @@ body {
 }
 
 /* Column container */
-.row {  
+.row {
   display: -ms-flexbox; /* IE10 */
   display: flex;
   -ms-flex-wrap: wrap; /* IE10 */
@@ -83,7 +83,7 @@ body {
 }
 
 /* Main column */
-.main {   
+.main {
   -ms-flex: 70%; /* IE10 */
   flex: 70%;
   background-color: white;
@@ -106,7 +106,7 @@ body {
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
-  .row {   
+  .row {
     flex-direction: column;
   }
 }
@@ -130,29 +130,37 @@ body {
 
 <div class="navbar">
   <a href="logs.html" class="active">Logs</a>
-  <a href="#">Forum</a>
-  <a href="#">Articles</a>
-  <a href="#">Plans</a>
-  <a href="#" class="right">Profile</a>
+  <a href="forum">Forum</a>
+  <a href="articles">Articles</a>
+  <a href="plans">Plans</a>
+  <a href="profile" class="right">Profile</a>
 </div>
 
 <div class="row">
   <div class="side">
-    <h3>Latest Reports</h3>
-    <p>Lorem ipsum dolor sit ame.</p>
-  </div>
-  
+    <a href="logs.html" class="active"> <h3> Latest Reports</h3></a>
+    <a href="logs"><p>South Face of Whitney climb - Mt. Whitney - 5/12/2020 - TimO</p> </a>
+    <a href="logs"><p>Kayak Around Angle island - SF Bay - 5/11/2020 - KatT</p> </a>
+    <a href="logs"><p>Weekend Camping Kirby Cove - Marin HeadLands - 5/10/2020 - G3</p> </a>
+    </div>
+
   <div class="main">
-    <h3>TITLE HEADING</h2>
-    <p>Some text..</p>
-    
+    <h3>Conversation</h2>
+      <ul>
+        <a href="forum"><li>What crampons should I get? - Sarah</li></a>
+        <a href="forum"><li>Can we go outside yet? - Sean</li></a>
+        <a href="forum"><li>What kind of subaru should I purchase? -dk</li></a>
+      </ul>
     <br>
-    <h2>TITLE HEADING</h2>
-    <h5>Title description, Sep 2, 2017</h5>
-    <div class="fakeimg" style="height:200px;">Image</div>
-    <p>Some text..</p>
-    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+
+    <h2>  Upcoming plans</h2>
+    <ul>
+      <a href="plans"><li>Avalanch Gultch - Shasta - 6/20/2020 - Bob</li> </a>
+      <a href="plans"><li>Tahoe Rim Trail - Tahoe - 7/7/2020 - kathy</li> </a>
+      <a href="plans"><li>Sail to Clipper Cove - SF Bay - 8/8/2020</li> </a>
+    </ul>
   </div>
+
 </div>
 
 <div class="footer">
