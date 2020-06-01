@@ -91,8 +91,8 @@ body {
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .side {
-  -ms-flex: 20%; /* IE10 */
-  flex: 20%;
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
   background-color: #f1f1f1;
   padding: 20px;
 }
@@ -105,8 +105,8 @@ body {
 }
 /* Main column */
 .main {
-  -ms-flex: 80%; /* IE10 */
-  flex: 80%;
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
   background-color: white;
   padding: 20px;
 }
@@ -145,7 +145,7 @@ body {
 <body>
 
 <div class="header">
-  <h1>Adventure Report</h1>
+  <a href="index.html" class="active"> <h1>Adventure Report</h1></a>
   <p>Log, Reflect, Plan</p>
 </div>
 
@@ -154,8 +154,6 @@ body {
   <a href="forum">Forum</a>
   <a href="articles">Articles</a>
   <a href="plans">Plans</a>
-  <a href="Interviews">Plans</a>
-  <a href="Mailing List">Plans</a>
 
 
   <a href="profile" class="right">Profile</a>
@@ -167,9 +165,7 @@ body {
 
 
 
-
-
-
+<div class="row">
   <div class="side">
     <a href="logs.html" class="active"> <h3> Latest Reports</h3></a>
     <a href="logs"><p>South Face of Whitney climb - Mt. Whitney - 5/12/2020 - TimO</p> </a>

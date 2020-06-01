@@ -98,11 +98,6 @@ body {
 }
 /* banner */
 
-.banner {
-  background-color: white;
-  padding: 20px;
-
-}
 /* Main column */
 .main {
   -ms-flex: 70%; /* IE10 */
@@ -110,6 +105,12 @@ body {
   background-color: white;
   padding: 20px;
 }
+
+.banner {
+  background-color: white;
+  padding: 20px;
+}
+
 
 /* Fake image, just for this example */
 .fakeimg {
@@ -145,7 +146,7 @@ body {
 <body>
 
 <div class="header">
-  <h1>Adventure Report</h1>
+  <a href="index.html" class="active">   <h1>Adventure Report</h1></a>
   <p>Log, Reflect, Plan</p>
 </div>
 
@@ -166,6 +167,7 @@ body {
 <p>Our goal is to provide you with the information you need to have the adventure you want, and share your experice with others to help them on their journey. You can log reports for your adventures, read others trips, and reflect on what comes next.</p>
 </div>
 
+<div class="row">
   <div class="side">
     <a href="logs.html" class="active"> <h3> Latest Reports</h3></a>
     <a href="logs"><p>South Face of Whitney climb - Mt. Whitney - 5/12/2020 - TimO</p> </a>
