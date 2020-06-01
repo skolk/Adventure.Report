@@ -91,16 +91,22 @@ body {
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .side {
-  -ms-flex: 30%; /* IE10 */
-  flex: 30%;
+  -ms-flex: 20%; /* IE10 */
+  flex: 20%;
   background-color: #f1f1f1;
   padding: 20px;
 }
+/* banner */
 
+.banner {
+  background-color: white;
+  padding: 20px;
+
+}
 /* Main column */
 .main {
-  -ms-flex: 70%; /* IE10 */
-  flex: 70%;
+  -ms-flex: 80%; /* IE10 */
+  flex: 80%;
   background-color: white;
   padding: 20px;
 }
@@ -144,7 +150,7 @@ body {
 </div>
 
 <div class="navbar">
-  <a href="logs.html" class="active">Logs</a>
+  <a href="logs.html" class="active">Reports</a>
   <a href="forum">Forum</a>
   <a href="articles">Articles</a>
   <a href="plans">Plans</a>
@@ -154,17 +160,17 @@ body {
 
   <a href="profile" class="right">Profile</a>
 </div>
-<div class="subbar">
-  <a href="logs.html" class="active">Logs</a>
-</div>
 
 
 
 
-<div class="row">
-  <p>Welcome to adventure.report</p>
+
+<div class="banner">
+<p>Welcome to adventure.report</p>
 
 <p>here you can log reports for your adventures to better track your progress throuhgh life. Logs are by default public (though you can keep them private), and you can better record, plan, and research for future trips. Our goal is to provide you with the information you need to have the adventure you want, and share your experice with others to help them on their journey.</p>
+</div>
+
   <div class="side">
     <a href="logs.html" class="active"> <h3> Latest Reports</h3></a>
     <a href="logs"><p>South Face of Whitney climb - Mt. Whitney - 5/12/2020 - TimO</p> </a>
